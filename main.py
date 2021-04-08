@@ -6,6 +6,7 @@ class App1:
 		self.top=top
 		top.title("Restaurant Management")
 		top.geometry("1028x500")
+		top.configure(background="#091833")
 
 root = tk.Tk()
 my_gui = App1(root)
